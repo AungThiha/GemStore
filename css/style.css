@@ -1,0 +1,52 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-thumbnail {
+    background: none;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+
+.nav-pills {
+    margin-bottom: 30px;
+}
+
+a {
+    color: #ac005f;
+}
+
+.nav-pills > li.active > a, .btn-primary, .btn-primary:focus,
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background: #ac005f;
+    border: 0;
+}
+
+li.small-image {
+    width: 50px;
+}
+
+.ng-invalid.ng-dirty {
+	border-color: #FA787E;
+}
+
+.ng-valid.ng-dirty {
+	border-color: #78FA89;
+}
